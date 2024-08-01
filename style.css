@@ -1,0 +1,252 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  h1{
+    font-size: 5rem;
+    margin: 0;
+    padding: 10% 5%;
+    padding-bottom: 5%;
+    line-height: 4rem;
+  }
+  
+  h2 {
+    font-size: 2.4rem;
+    text-align: center;
+    color: #024f80;
+    margin: 1%;
+  }
+  
+  .h2hr{
+    width: 25%;
+    height: 2%;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0079C4;
+    color: white;
+    position: fixed;
+    border-radius: 2rem;
+  
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  nav li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.4rem 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+  }
+  
+  #header-H1{
+    width: 20%;
+    height: auto;
+    padding: 2%;
+    font-size: 65px;
+  }
+  
+  .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-image: url(https://res.cloudinary.com/itsellej/image/upload/v1534109829/blue-oranges-landing-page/blue-orange-main-image.jpg);
+    background-position: 75% 50%;
+    background-size: cover;
+    background-color: #0079C4;
+    padding: 4% 0;
+  }
+  
+  .main-text {
+    padding: 20%;
+  }
+  .tagline{
+    font-size: 1.7rem;
+    margin: 0;
+    padding: 10% 5%;
+    padding-top: 0%;
+    line-height: 1.6rem;
+  }
+  
+  .about{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 5%;
+    padding-top: 0;
+  }
+  
+  .about-left {
+    padding-right: 2%;
+    flex: 1;
+  }
+  
+  .about-right {
+    padding-left: 2%;
+    flex: 1;
+  }
+  
+  .features{
+    text-align: center;
+  }
+  
+  .feature-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2% 5%;
+  }
+  
+  .feature-left, .feature-middle, .feature-right{
+    width: 28%;
+    background-color: rgba(237, 237, 237, 0.4);
+    border: 1px solid black;
+    padding: 1%;
+  }
+  
+  i{
+    font-size: 4rem;
+    padding: 3%;
+    color: #0079C4;
+  }
+  
+  .video-div{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .image-tagline{
+    background-color: #0079C4;
+    color: white;
+    padding: 2% 5%;
+  
+  }
+  
+  blockquote {
+    font-size: 2.5rem;
+    font-style: italic;
+    line-height: 2.5rem;
+    text-align: center;
+  
+  }
+  
+  .quote-author{
+    text-align: right;
+    text-decoration: underline;
+    margin-top: 0;
+    font-size: 1.4rem;
+  }
+  
+  .newsletter{
+    padding: 2% 5%;
+    padding-top: 0;
+    text-align: center;
+  }
+  
+  button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+  }
+  
+  .sign-up{
+    padding: 1%;
+  }
+  
+  .submit{
+    font-size: 1.2rem;
+    background-color: #0079C4;
+    color: white;
+    padding: 1%;
+    border-radius: 0.5rem;
+  
+  }
+  
+  
+  
+  footer{
+    font-size: 0.7rem;
+    line-height: 0.3rem;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    text-align: center;
+    background-color: #0079C4;
+    color: white;
+  }
+  
+  .icons{
+    max-width: 20px;
+    height: auto;
+    padding: 0 0.2vw;
+  }
+  
+  
+  @media (max-width: 576px) {
+    nav li {
+      padding: 0.4rem 0.3rem;
+      font-weight: bold;
+    }
+  
+    .about{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  
+    }
+  
+    h1{
+      font-size: 4rem;
+    }
+  
+    .tagline{
+      font-size: 1.4rem;
+    }
+  
+    h2{
+      font-size: 2rem;
+    }
+  
+    blockquote{
+      font-size: 1.7rem;
+    }
+    .quote-author{
+      font-size: 1.2rem;
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+    .feature-boxes{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+  }
+    .feature-left, .feature-middle, .feature-right{
+    width: 60%;
+    margin: 2% 0;
+    }
+  }
